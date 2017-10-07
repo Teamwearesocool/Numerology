@@ -1,9 +1,18 @@
 .page-header {
     text-align: center;
+    
 }
 
 .page-header h1 {
     font-family:'Henny Penny';
+       position: absolute; 
+   top:143px; 
+   left: 0; 
+   width: 78%;
+   font-size: 14px;
+   line-height: 2.1;
+   margin-left:39px;
+   color: #080808
 }
 
 .container {
@@ -21,6 +30,14 @@ padding: 22px;
 .panel-title>a {
     font-size: 22px;
 }
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   
+}
+
+
+   
 
 .clientForm {
     max-width: 650px;
