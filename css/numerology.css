@@ -6,15 +6,44 @@
 .page-header h1 {
     font-family:'Henny Penny';
        position: absolute; 
-   top:143px; 
-   left: 0; 
-   width: 78%;
-   font-size: 14px;
-   line-height: 2.1;
-   margin-left:39px;
-   color: #080808
+    top: 50px;
+    left: 0;
+    width: 80%;
+    font-size: 25px;
+    margin-left: 90px;
+    color: #dbe8f1;
+}
+.h2 {
+    font-family: 'Balthazar', serif;
+font-size: 30px
+}
+.jumbotron {
+    background:url('http://pre04.deviantart.net/130b/th/pre/i/2015/118/f/d/the_magic_path_by_lt_arts-d8re781.jpg');
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.135;
+    color: inherit;
+    background-color: rgba(169, 232, 128, 0.78);
+    font-family:'Balthazar', serif;
+    }
+
+.h4 {font-family:'Balthazar', serif;
+font-size: 20px  
+}
+.alert-info {
+    color: #171a56;
+    background-color: #d1f0f0;
 }
 
+
+.p1 {
+      
+    color: #0c5a03;
+    background-color: #cfcdd2;
+   
+}
 .container {
     width: auto;
     max-width: 1000px;
@@ -27,8 +56,20 @@ padding: 22px;
 */
 
 /* heading size for accordions */
+
+.panel-title {
+ 
+ 
+}
+
+.panel-default>.panel-heading{
+background-color:  #26076d;
+background:url('http://pre04.deviantart.net/130b/th/pre/i/2015/118/f/d/the_magic_path_by_lt_arts-d8re781.jpg');
+}
+
 .panel-title>a {
     font-size: 22px;
+    font: bolder;
 }
 .image { 
    position: relative; 
