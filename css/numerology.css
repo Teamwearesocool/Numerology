@@ -23,10 +23,12 @@ font-size: 30px
     margin-bottom: 30px;
     font-size: 21px;
     font-weight: 200;
+    margin-left: 5px;
     line-height: 2.135;
-    color: inherit;
+    color: white;
     background-color: rgba(169, 232, 128, 0.78);
     font-family:'Balthazar', serif;
+
     }
 
 .h4 {font-family:'Balthazar', serif;
@@ -57,7 +59,8 @@ padding: 22px;
 
 /* heading size for accordions */
 
-.panel-title {
+
+.panel-default {
  
  
 }
@@ -65,11 +68,16 @@ padding: 22px;
 .panel-default>.panel-heading{
 background-color:  #26076d;
 background:url('http://pre04.deviantart.net/130b/th/pre/i/2015/118/f/d/the_magic_path_by_lt_arts-d8re781.jpg');
+
 }
 
 .panel-title>a {
-    font-size: 22px;
+    font-size: 25px;
     font: bolder;
+
+}
+    .panel-title>a {
+    color: white
 }
 .image { 
    position: relative; 
